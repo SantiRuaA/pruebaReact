@@ -1,0 +1,20 @@
+.navbar-container {
+  background-color: #1976d2; /* Cambia el color de fondo según tus preferencias */
+  padding: 10px;
+}
+
+.p-menubar {
+  background-color: transparent !important; /* Cambia el color de fondo del menú */
+}
+
+.p-menubar-root-list {
+  background-color: transparent !important; /* Cambia el color de fondo de los elementos del menú */
+}
+
+.p-menubar-root-list .p-menuitem-link {
+  color: #ffffff !important; /* Cambia el color del texto del menú */
+}
+
+.p-menubar-root-list .p-menuitem-link:hover {
+  background-color: #1565c0 !important; /* Cambia el color de fondo del elemento del menú al pasar el ratón */
+}

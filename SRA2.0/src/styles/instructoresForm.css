@@ -1,0 +1,46 @@
+/* Estilos para el formulario */
+.p-formgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* Estilos para cada campo */
+.p-field {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para los labels */
+label {
+  margin-bottom: 0.5rem;
+}
+
+/* Estilos para los inputs */
+.p-inputtext {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.cancelar {
+  margin-right: 5px;
+  background-color: #3d3c3c;
+}
+
+.p-inputgroup {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
